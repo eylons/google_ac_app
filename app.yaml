@@ -1,0 +1,10 @@
+runtime: php #55
+runtime_config:
+  document_root: web
+api_version: 1
+threadsafe: true
+# handlers:
+# - url: /.*
+#   script: form.html
+skip_files:
+- products.json
