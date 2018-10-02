@@ -6,7 +6,7 @@ use Google\Cloud\Datastore\DatastoreClient;
 try
 {
 
-	$projectId = 'canvas-network-218103';
+	$projectId = 'hello-world-with-php-218205';
 	$datastore = new DatastoreClient([
 	    'projectId' => $projectId
 	]);

@@ -8,7 +8,7 @@ try
 	$mem = new Memcached();
 	$mem->addServer("127.0.0.1", 11211);
 
-	$projectId = 'canvas-network-218103';
+	$projectId = 'hello-world-with-php-218205';
 	$datastore = new DatastoreClient([
 	    'projectId' => $projectId
 	]);

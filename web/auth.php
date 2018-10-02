@@ -8,7 +8,7 @@ use GuzzleHttp\HandlerStack;
 try
 {
 // specify the path to your application credentials
-putenv('GOOGLE_APPLICATION_CREDENTIALS=/home/canvas-network-218103/cp100-bbde4d919e35.json');
+putenv('GOOGLE_APPLICATION_CREDENTIALS=~/Documents/google_cloud_credentials/HelloWorldwithPHP-dc18ef1b65eb.json');
 
 // define the scopes for your API call
 $scopes = ['https://www.googleapis.com/auth/drive.readonly'];
